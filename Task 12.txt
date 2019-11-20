@@ -1,0 +1,35 @@
+● Explain why a high-quality software process should lead to high-quality software
+products. Discuss possible problems with this system of quality management.
+
+ A manufacturing process involves configuring, setting up, and operating the machines involved in the process. Once the machines are operating correctly and manufacturing systems are calibrated, they can run repeatedly to achieve high quality products. Process quality management and improvement can lead to fewer defects in the software. However, software development is a creative rather than mechanical process, so the influence of individual skills and experience is significant. External factors such as novelty of an application or commercial pressure for an early product release affect the product quality irrespective of the process used
+
+● Briefly describe possible standards that might be used for:
+○ The use of control constructs in Java
+
+Java has a standard way of writing controlled statements. The system will advise when there is somehting missing or when the spacing is wrong. This simplifies the code so multiple people can work together on a project. 
+
+○ Reports which might be submitted for a term project in a university
+
+The basic of any report will be whether the topic is covered in detail. The info must be true and not misleading in any way. The more info to cover a subject, the better. The student should also add references to where they aquired their info.
+
+○ The process of purchasing and installing a new computer
+
+The sales consultant should verify that the pc sold to the user is adaquite to the user's needs.
+The consultant should explain all the warranties and guarentees to the user.
+The operating system should be pre-installed and should it require activation then the user should be made aware of this beforehand.
+The pc should be set up and tested for the client if possible so the client (if they are not aware) can see how to set the unit up.
+
+● Explain why program inspections are an effective technique for discovering errors in a
+program. What types of error are unlikely to be discovered through inspections?
+
+Program inspections are one of many techniques for program validation and verification. They are a peer review process that involves the line-by-line human inspection of source code. It doesn't even require execution of the program. This means that program inspections can evaluate code at very early stages in the development lifecycle -- even in the modeling stage. They can also provide benefit to the project by validating test code. Although automated tests are rarely written for test code, tests are subject to bugs and errors just as any code is. Inspections of test code legitimize the assurances that tests provide. Usually, program inspections are concerned with very specific metrics regarding the language or the domain. They focus on the known limitations of programmers, and software. Therefore, they are unlikely to discover unique, never-before-encountered errors in the code.
+
+● Explain why design metrics are, by themselves, an inadequate method of predicting
+design quality.
+
+Design metrics are inadequate because they assume that quality is only related to what can actually be measured. In fact, it is very difficult to say what quality really means and it is certainly related to many different program attributes. The importance of these attributes varies from system to system and from organization to organization. Also, it is difficult to make direct measurements of many of the software quality attributes
+
+● Why it is difficult to validate the relationships between internal product attributes, such
+as cyclomatic complexity and external attributes, such as maintainability.
+
+The basic difficulty arises because the external attributes such as maintainability are not just dependent on a small number of internal product attributes. While the complexity of a system influences its maintainability, other issues such as the use of variable names, the system documentation and, particularly, the skills of the people doing the maintenance have such a large effect on the process that they may mask any maintainability differences arising from different levels of complexity. This does not contradict experiments where a relationship between maintainability and complexity was discovered – however, we don’t have enough evidence at the moment to generalize this.
